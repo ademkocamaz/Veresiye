@@ -1,5 +1,5 @@
 # Veresiye
-- Firebird Embedded kullandığım, Katmanlı Mimari ile yapılmış Veresiye uygulaması.
+- Firebird Embedded ve EntityFramework kullandığım, Katmanlı Mimari ile yapılmış Veresiye uygulaması.
 ## Kullanılan Teknolojiler
 - EntityFramework.6.4.4
 - EntityFramework.Firebird.8.5.4
