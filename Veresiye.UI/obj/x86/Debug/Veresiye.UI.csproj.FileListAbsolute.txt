@@ -1,0 +1,15 @@
+C:\Users\Adem\source\repos\Veresiye\Build\x86\Debug\Veresiye.UI.exe.config
+C:\Users\Adem\source\repos\Veresiye\Build\x86\Debug\Veresiye.UI.exe
+C:\Users\Adem\source\repos\Veresiye\Build\x86\Debug\Veresiye.UI.pdb
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.csproj.AssemblyReference.cache
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.Properties.Resources.resources
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.csproj.GenerateResource.cache
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.csproj.CoreCompileInputs.cache
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.csproj.CopyComplete
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.exe
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.pdb
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.CustomerDetailForm.resources
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.MainForm.resources
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.CustomerActivityDetailForm.resources
+C:\Users\Adem\source\repos\Veresiye\Veresiye.UI\obj\x86\Debug\Veresiye.UI.CustomerActivityForm.resources
