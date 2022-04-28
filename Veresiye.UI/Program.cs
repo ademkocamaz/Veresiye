@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,9 +15,18 @@ namespace Veresiye.UI
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            bool AcikUygulamaVar = false;
+            Mutex mtx = new Mutex(true, "Veresiye", out AcikUygulamaVar);
+            if (AcikUygulamaVar)
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new MainForm());
+            }
+            else
+            {
+                MessageBox.Show("Uygulamadan aynı anda bir tane açabilirsiniz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
