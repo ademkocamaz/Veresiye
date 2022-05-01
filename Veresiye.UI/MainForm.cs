@@ -86,6 +86,7 @@ namespace Veresiye.UI
                 customerActivityForm.Customer = customerService.Get(c => c.Id.Equals(id));
                 customerActivityForm.ShowDialog();
             }
+            LoadCustomers();
         }
     }
 }

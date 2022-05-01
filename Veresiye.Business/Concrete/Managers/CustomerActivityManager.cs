@@ -15,10 +15,12 @@ namespace Veresiye.Business.Concrete.Managers
     public class CustomerActivityManager : ICustomerActivityService
     {
         private ICustomerActivityDal customerActivityDal;
+        private ICustomerDal customerDal;
 
-        public CustomerActivityManager(ICustomerActivityDal customerActivityDal)
+        public CustomerActivityManager(ICustomerActivityDal customerActivityDal,ICustomerDal customerDal)
         {
             this.customerActivityDal = customerActivityDal;
+            this.customerDal = customerDal;
         }
         public void Add(CustomerActivity entity)
         {
@@ -30,7 +32,11 @@ namespace Veresiye.Business.Concrete.Managers
         {
             decimal borc = customerActivityDal.GetAll(a => a.Type.Equals("Borç") | a.Type.Equals("Ödeme") && a.CustomerId.Equals(customer.Id)).Select(i => i.Total).Sum();
             decimal alacak = customerActivityDal.GetAll(a => a.Type.Equals("Alacak") | a.Type.Equals("Tahsilat") && a.CustomerId.Equals(customer.Id)).Select(i => i.Total).Sum();
-            return borc - alacak;
+            decimal bakiye = borc - alacak;
+
+            customer.Balance = bakiye;
+            customerDal.Update(customer);
+            return bakiye;
         }
 
         public void Delete(CustomerActivity entity)
