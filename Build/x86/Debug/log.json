@@ -1,0 +1,201 @@
+{
+  "DateTime": "2022-05-01T23:14:09.1418362+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAll",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-01T23:14:22.5556034+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 2
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-01T23:14:23.0436313+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 2,
+          "Calling": "TEST2",
+          "Contact": "TEST2",
+          "Gsm": "TEST2",
+          "Phone": "TEST2",
+          "Fax": "TEST2",
+          "Address": "TEST2",
+          "City": "TEST2",
+          "County": "TEST2",
+          "TaxOffice": "TEST2",
+          "TaxId": "TEST2",
+          "EMail": "TEST2",
+          "Web": "TEST2",
+          "Balance": 50.0
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-01T23:14:38.983543+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "Add",
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "CustomerActivity",
+        "Value": {
+          "Id": 0,
+          "CustomerId": 2,
+          "Type": "Borç",
+          "Description": "Çikolata",
+          "Total": 5.75
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-01T23:14:39.1975553+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 2,
+          "Calling": "TEST2",
+          "Contact": "TEST2",
+          "Gsm": "TEST2",
+          "Phone": "TEST2",
+          "Fax": "TEST2",
+          "Address": "TEST2",
+          "City": "TEST2",
+          "County": "TEST2",
+          "TaxOffice": "TEST2",
+          "TaxId": "TEST2",
+          "EMail": "TEST2",
+          "Web": "TEST2",
+          "Balance": 50.0
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-01T23:14:41.0936637+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAll",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}

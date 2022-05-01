@@ -58,3 +58,14 @@ C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\obj\x86\Debug\Veresiye
 C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\obj\x86\Debug\Veresiye.Business.csproj.CopyComplete
 C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\obj\x86\Debug\Veresiye.Business.dll
 C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\obj\x86\Debug\Veresiye.Business.pdb
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\bin\x86\Debug\Veresiye.Business.pssym
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\bin\x86\Debug\Veresiye.Business.pspdb
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\bin\x86\Debug\PostSharp.dll
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\bin\x86\Debug\log4net.dll
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\bin\x86\Debug\PostSharp.xml
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\bin\x86\Debug\log4net.xml
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\obj\x86\Debug\PostSharp\touch
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\obj\x86\Debug\PostSharp\AdditionalBuildDependencies.txt
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Business\obj\x86\Debug\PostSharp\postsharp.app.config

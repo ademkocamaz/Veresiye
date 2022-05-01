@@ -1,6 +1,9 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using Veresiye.Core.Aspects.Postsharp.ExceptionAspects;
+using Veresiye.Core.Aspects.Postsharp.LogAspects;
+using Veresiye.Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 
 // Bir bütünleştirilmiş koda ilişkin Genel Bilgiler aşağıdaki öznitelikler kümesiyle
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
@@ -14,6 +17,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
+[assembly: LogAspect(typeof(FileLogger), AttributeTargetTypes = "Veresiye.Business.Concrete.Managers.*")]
+[assembly: ExceptionLogAspect(typeof(FileLogger), AttributeTargetTypes = "Veresiye.Business.Concrete.Managers.*")]
 // ComVisible özniteliğinin false olarak ayarlanması bu bütünleştirilmiş koddaki türleri
 // COM bileşenleri için görünmez yapar. Bu bütünleştirilmiş koddaki bir türe
 // erişmeniz gerekirse ComVisible özniteliğini o türde true olarak ayarlayın.
