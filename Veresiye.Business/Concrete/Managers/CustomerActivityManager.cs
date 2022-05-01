@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Veresiye.Business.Abstract;
 using Veresiye.Business.ValidationRules.FluentValidation;
+using Veresiye.Core.Aspects.Postsharp.CacheAspects;
+using Veresiye.Core.CrossCuttingConcerns.Caching.Microsoft;
 using Veresiye.Core.Utilities.Validation;
 using Veresiye.DataAccess.Abstract;
 using Veresiye.Entity.Concrete;
@@ -49,6 +51,7 @@ namespace Veresiye.Business.Concrete.Managers
             return customerActivityDal.Get(filter);
         }
 
+        [CacheAspect(typeof(MemoryCacheManager))]
         public List<CustomerActivity> GetAll(Expression<Func<CustomerActivity, bool>> filter = null)
         {
             return customerActivityDal.GetAll(filter);

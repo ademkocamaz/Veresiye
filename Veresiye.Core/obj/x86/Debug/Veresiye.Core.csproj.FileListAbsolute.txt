@@ -49,3 +49,11 @@ C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\obj\x86\Debug\Veresiye.Cor
 C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\obj\x86\Debug\Veresiye.Core.dll
 C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\obj\x86\Debug\Veresiye.Core.pdb
 C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\obj\x86\Debug\PostSharp\postsharp.app.config
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\bin\x86\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\bin\x86\Debug\System.Security.AccessControl.dll
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\bin\x86\Debug\System.Security.Permissions.dll
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\bin\x86\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\bin\x86\Debug\System.Security.AccessControl.xml
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\bin\x86\Debug\System.Security.Permissions.xml
+C:\Users\Adem\Documents\GitHub\Veresiye\Veresiye.Core\bin\x86\Debug\System.Security.Principal.Windows.xml
