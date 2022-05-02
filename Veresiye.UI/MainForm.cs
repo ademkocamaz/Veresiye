@@ -71,7 +71,7 @@ namespace Veresiye.UI
         private void button_New_Click(object sender, EventArgs e)
         {
             using (CustomerDetailForm customerDetailForm = new CustomerDetailForm())
-            { 
+            {
                 customerDetailForm.CustomerService = customerService;
                 customerDetailForm.ShowDialog();
             }
@@ -87,6 +87,18 @@ namespace Veresiye.UI
                 customerActivityForm.ShowDialog();
             }
             LoadCustomers();
+        }
+
+        private void textBox_Search_Calling_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox_Search_Calling.Text == "")
+            {
+                LoadCustomers();
+            }
+            else
+            {
+                dataGridView_Customers.DataSource = customerService.GetAll(c => c.Calling.Contains(textBox_Search_Calling.Text));
+            }
         }
     }
 }

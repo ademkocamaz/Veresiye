@@ -809,3 +809,93 @@
     ]
   }
 }
+{
+  "DateTime": "2022-05-02T20:49:06.8443202+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAll",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-02T20:49:17.6103392+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAll",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-02T20:49:22.5243479+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAll",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-02T20:49:25.4883531+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAll",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-02T20:49:30.8703625+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAll",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-02T20:49:35.5815708+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAll",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}

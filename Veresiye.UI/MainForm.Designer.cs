@@ -31,6 +31,8 @@
             this.dataGridView_Customers = new System.Windows.Forms.DataGridView();
             this.button_New = new System.Windows.Forms.Button();
             this.button_Activity = new System.Windows.Forms.Button();
+            this.textBox_Search_Calling = new System.Windows.Forms.TextBox();
+            this.label_Search_Calling = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Customers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,11 +75,30 @@
             this.button_Activity.UseVisualStyleBackColor = true;
             this.button_Activity.Click += new System.EventHandler(this.button_Activity_Click);
             // 
+            // textBox_Search_Calling
+            // 
+            this.textBox_Search_Calling.Location = new System.Drawing.Point(239, 31);
+            this.textBox_Search_Calling.Name = "textBox_Search_Calling";
+            this.textBox_Search_Calling.Size = new System.Drawing.Size(343, 20);
+            this.textBox_Search_Calling.TabIndex = 2;
+            this.textBox_Search_Calling.TextChanged += new System.EventHandler(this.textBox_Search_Calling_TextChanged);
+            // 
+            // label_Search_Calling
+            // 
+            this.label_Search_Calling.AutoSize = true;
+            this.label_Search_Calling.Location = new System.Drawing.Point(163, 34);
+            this.label_Search_Calling.Name = "label_Search_Calling";
+            this.label_Search_Calling.Size = new System.Drawing.Size(70, 13);
+            this.label_Search_Calling.TabIndex = 3;
+            this.label_Search_Calling.Text = "Ara (Ünvan) :";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label_Search_Calling);
+            this.Controls.Add(this.textBox_Search_Calling);
             this.Controls.Add(this.button_Activity);
             this.Controls.Add(this.button_New);
             this.Controls.Add(this.dataGridView_Customers);
@@ -87,6 +108,7 @@
             this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Customers)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -95,6 +117,8 @@
         private System.Windows.Forms.DataGridView dataGridView_Customers;
         private System.Windows.Forms.Button button_New;
         private System.Windows.Forms.Button button_Activity;
+        private System.Windows.Forms.TextBox textBox_Search_Calling;
+        private System.Windows.Forms.Label label_Search_Calling;
     }
 }
 
