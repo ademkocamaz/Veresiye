@@ -23,7 +23,7 @@ namespace Veresiye.Business.Concrete.Managers
         }
         public void Add(Customer entity)
         {
-            ValidationTool.Validate(new CustomerValidator(),entity);
+            ValidationTool.Validate(new CustomerValidator(), entity);
             customerDal.Add(entity);
         }
 
@@ -43,10 +43,17 @@ namespace Veresiye.Business.Concrete.Managers
             return customerDal.GetAll(filter);
         }
 
+        [CacheAspect(typeof(MemoryCacheManager))]
+        public async Task<List<Customer>> GetAllAsync(Expression<Func<Customer, bool>> filter = null)
+        {
+            return await Task.Run(() => customerDal.GetAll(filter));
+        }
         public void Update(Customer entity)
         {
             ValidationTool.Validate(new CustomerValidator(), entity);
             customerDal.Update(entity);
         }
+
+        
     }
 }

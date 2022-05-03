@@ -23,9 +23,10 @@ namespace Veresiye.UI
             customerService = InstanceFactory.GetInstance<ICustomerService>();
         }
 
-        private void LoadCustomers()
+        private async void LoadCustomers()
         {
-            dataGridView_Customers.DataSource = customerService.GetAll();
+            Task<List<Customer>> task = customerService.GetAllAsync();
+            dataGridView_Customers.DataSource = await task;
         }
 
         private void Main_Load(object sender, EventArgs e)

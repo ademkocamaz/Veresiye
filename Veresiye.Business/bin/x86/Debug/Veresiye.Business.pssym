@@ -1,98 +1,122 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols LinesOfCode="82" PostSharpLinesOfCode="0" EnhancedTypesCount="2" SchemaVersion="1" PostSharpVersion="6.10.10.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
-  <Class Class="#1=T:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.LogAspects.LogAspect">
-    <Instance Declaration="#2=A:Veresiye.Business" Id="42e5270aef11f631">
-      <Target Target="#3=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::GetAll(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.CustomerActivity,System.Boolean}})" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnEntry" Ordinal="11" />
+<Symbols LinesOfCode="90" PostSharpLinesOfCode="0" EnhancedTypesCount="2" SchemaVersion="1" PostSharpVersion="6.10.10.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Evolution Source="#1=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::GetAllAsync(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.CustomerActivity,System.Boolean}})" Target="#2=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager+&lt;GetAllAsync&gt;d__8::MoveNext()" />
+  <Evolution Source="#3=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::GetAllAsync(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.Customer,System.Boolean}})" Target="#4=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager+&lt;GetAllAsync&gt;d__6::MoveNext()" />
+  <Class Class="#5=T:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.LogAspects.LogAspect">
+    <Instance Declaration="#6=A:Veresiye.Business" Id="42e5270abd696227">
+      <Target Target="#7=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::GetAll(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.CustomerActivity,System.Boolean}})" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8=Wrapped by advice(s) OnEntry" Ordinal="11" />
       </Target>
-      <Target Target="#5=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::GetAll(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.Customer,System.Boolean}})" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="23" />
+      <Target Target="#1" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="14" />
       </Target>
-      <Target Target="#6=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::Add(Veresiye.Entity.Concrete.CustomerActivity)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="2" />
+      <Target Target="#9=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::GetAll(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.Customer,System.Boolean}})" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="26" />
       </Target>
-      <Target Target="#7=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::BakiyeHesapla(Veresiye.Entity.Concrete.Customer)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="4" />
+      <Target Target="#3" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="29" />
       </Target>
-      <Target Target="#8=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::Delete(Veresiye.Entity.Concrete.CustomerActivity)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="6" />
+      <Target Target="#10=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::Add(Veresiye.Entity.Concrete.CustomerActivity)" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="2" />
       </Target>
-      <Target Target="#9=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::Get(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.CustomerActivity,System.Boolean}})" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="8" />
+      <Target Target="#11=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::BakiyeHesapla(Veresiye.Entity.Concrete.Customer)" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="4" />
       </Target>
-      <Target Target="#10=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::Update(Veresiye.Entity.Concrete.CustomerActivity)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="13" />
+      <Target Target="#12=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::Delete(Veresiye.Entity.Concrete.CustomerActivity)" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="6" />
       </Target>
-      <Target Target="#11=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::Add(Veresiye.Entity.Concrete.Customer)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="16" />
+      <Target Target="#13=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::Get(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.CustomerActivity,System.Boolean}})" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="8" />
       </Target>
-      <Target Target="#12=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::Delete(Veresiye.Entity.Concrete.Customer)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="18" />
+      <Target Target="#14=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::Update(Veresiye.Entity.Concrete.CustomerActivity)" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="16" />
       </Target>
-      <Target Target="#13=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::Get(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.Customer,System.Boolean}})" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="20" />
+      <Target Target="#15=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::Add(Veresiye.Entity.Concrete.Customer)" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="19" />
       </Target>
-      <Target Target="#14=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::Update(Veresiye.Entity.Concrete.Customer)" LinesAvoided="2">
-        <JoinPoint Advising="#1" Description="#4" Ordinal="25" />
+      <Target Target="#16=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::Delete(Veresiye.Entity.Concrete.Customer)" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="21" />
+      </Target>
+      <Target Target="#17=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::Get(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.Customer,System.Boolean}})" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="23" />
+      </Target>
+      <Target Target="#18=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::Update(Veresiye.Entity.Concrete.Customer)" LinesAvoided="2">
+        <JoinPoint Advising="#5" Description="#8" Ordinal="31" />
       </Target>
     </Instance>
   </Class>
-  <Class Class="#15=T:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.ExceptionAspects.ExceptionLogAspect">
-    <Instance Declaration="#2" Id="42e5270a53573610">
-      <Target Target="#3" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16=Wrapped by advice(s) OnException" Ordinal="9" />
-      </Target>
-      <Target Target="#5" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="21" />
-      </Target>
-      <Target Target="#17=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::#ctor(Veresiye.DataAccess.Abstract.ICustomerActivityDal, Veresiye.DataAccess.Abstract.ICustomerDal)" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="0" />
-      </Target>
-      <Target Target="#6" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" />
-      </Target>
+  <Class Class="#19=T:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.ExceptionAspects.ExceptionLogAspect">
+    <Instance Declaration="#6" Id="42e5270a6720404c">
       <Target Target="#7" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="3" />
+        <JoinPoint Advising="#19" Description="#20=Wrapped by advice(s) OnException" Ordinal="9" />
       </Target>
-      <Target Target="#8" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="5" />
+      <Target Target="#1" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#19" Description="#20" Ordinal="13" />
       </Target>
       <Target Target="#9" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="7" />
+        <JoinPoint Advising="#19" Description="#20" Ordinal="24" />
+      </Target>
+      <Target Target="#3" LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#19" Description="#20" Ordinal="28" />
+      </Target>
+      <Target Target="#21=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::#ctor(Veresiye.DataAccess.Abstract.ICustomerActivityDal, Veresiye.DataAccess.Abstract.ICustomerDal)" LinesAvoided="2">
+        <JoinPoint Advising="#19" Description="#20" Ordinal="0" />
       </Target>
       <Target Target="#10" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="12" />
-      </Target>
-      <Target Target="#18=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::#ctor(Veresiye.DataAccess.Abstract.ICustomerDal)" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="14" />
+        <JoinPoint Advising="#19" Description="#20" />
       </Target>
       <Target Target="#11" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="15" />
+        <JoinPoint Advising="#19" Description="#20" Ordinal="3" />
       </Target>
       <Target Target="#12" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="17" />
+        <JoinPoint Advising="#19" Description="#20" Ordinal="5" />
       </Target>
       <Target Target="#13" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="19" />
+        <JoinPoint Advising="#19" Description="#20" Ordinal="7" />
       </Target>
       <Target Target="#14" LinesAvoided="2">
-        <JoinPoint Advising="#15" Description="#16" Ordinal="24" />
+        <JoinPoint Advising="#19" Description="#20" Ordinal="15" />
       </Target>
-    </Instance>
-  </Class>
-  <Class Class="#19=T:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.CacheAspects.CacheAspect">
-    <Instance Declaration="#3" Id="42e5270a204cc361">
-      <Target LinesAvoided="2">
-        <JoinPoint Advising="#19" Description="#20=Intercepted by OnInvoke" Ordinal="10" />
+      <Target Target="#22=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::#ctor(Veresiye.DataAccess.Abstract.ICustomerDal)" LinesAvoided="2">
+        <JoinPoint Advising="#19" Description="#20" Ordinal="17" />
       </Target>
-    </Instance>
-    <Instance Declaration="#5" Id="42e5270a5b56fe59">
-      <Target LinesAvoided="2">
+      <Target Target="#15" LinesAvoided="2">
+        <JoinPoint Advising="#19" Description="#20" Ordinal="18" />
+      </Target>
+      <Target Target="#16" LinesAvoided="2">
+        <JoinPoint Advising="#19" Description="#20" Ordinal="20" />
+      </Target>
+      <Target Target="#17" LinesAvoided="2">
         <JoinPoint Advising="#19" Description="#20" Ordinal="22" />
       </Target>
+      <Target Target="#18" LinesAvoided="2">
+        <JoinPoint Advising="#19" Description="#20" Ordinal="30" />
+      </Target>
     </Instance>
   </Class>
-  <Annotation Target="#21=M:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.ExceptionAspects.ExceptionLogAspect::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22=2" Description="#23=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
-  <Annotation Target="#24=M:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.LogAspects.LogAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#22" Description="#23" />
-  <Annotation Target="#25=M:[PostSharp]PostSharp.Aspects.IMethodInterceptionAspect::OnInvoke([PostSharp]PostSharp.Aspects.MethodInterceptionArgs)" Arguments="#22" Description="#23" />
+  <Class Class="#23=T:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.CacheAspects.CacheAspect">
+    <Instance Declaration="#7" Id="42e5270ae7a5b57d">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#23" Description="#24=Intercepted by OnInvoke" Ordinal="10" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#1" Id="42e5270aac47df09">
+      <Target LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#23" Description="#24" Ordinal="12" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#9" Id="42e5270a6196b548">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#23" Description="#24" Ordinal="25" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#3" Id="42e5270a7af62346">
+      <Target LinesAvoided="2" Tags="premium">
+        <JoinPoint Advising="#23" Description="#24" Ordinal="27" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#25=M:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.ExceptionAspects.ExceptionLogAspect::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#26=2" Description="#27=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#28=M:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.LogAspects.LogAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#26" Description="#27" />
+  <Annotation Target="#29=M:[PostSharp]PostSharp.Aspects.IMethodInterceptionAspect::OnInvoke([PostSharp]PostSharp.Aspects.MethodInterceptionArgs)" Arguments="#26" Description="#27" />
 </Symbols>

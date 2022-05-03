@@ -23,11 +23,12 @@ namespace Veresiye.UI
             customerActivityService = InstanceFactory.GetInstance<ICustomerActivityService>();
         }
 
-        private void LoadCustomerActivities()
+        private async void LoadCustomerActivities()
         {
-            dataGridView_Activity.DataSource = customerActivityService.GetAll(a => a.CustomerId == Customer.Id);
+            Task<List<CustomerActivity>> task = customerActivityService.GetAllAsync(a => a.CustomerId == Customer.Id);
+            dataGridView_Activity.DataSource = await task;
 
-            label_Balance.Text = "Bakiye : " + customerActivityService.BakiyeHesapla(Customer).ToString()+"₺";
+            label_Balance.Text = "Bakiye : " + customerActivityService.BakiyeHesapla(Customer).ToString() + "₺";
         }
 
         private void DataGridViewProperties(DataGridView dataGridView)

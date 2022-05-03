@@ -43,3 +43,1524 @@
     ]
   }
 }
+{
+  "DateTime": "2022-05-03T22:04:01.9323283+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:05:04.9619334+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:06:33.1489774+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:06:48.4468524+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 1
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:06:49.209896+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 1,
+          "Calling": "TEST1",
+          "Contact": "TEST1",
+          "Gsm": "TEST1",
+          "Phone": "TEST1",
+          "Fax": "TEST1",
+          "Address": "TEST1",
+          "City": "TEST1",
+          "County": "TEST1",
+          "TaxOffice": "TEST1",
+          "TaxId": "TEST1",
+          "EMail": "TEST1",
+          "Web": "TEST1",
+          "Balance": 66.5
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:06:53.5021415+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:11:50.5058517+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:11:58.6550664+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 1
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:11:59.1104674+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 1,
+          "Calling": "TEST1",
+          "Contact": "TEST1",
+          "Gsm": "TEST1",
+          "Phone": "TEST1",
+          "Fax": "TEST1",
+          "Address": "TEST1",
+          "City": "TEST1",
+          "County": "TEST1",
+          "TaxOffice": "TEST1",
+          "TaxId": "TEST1",
+          "EMail": "TEST1",
+          "Web": "TEST1",
+          "Balance": 66.5
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:12:02.6702738+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:12:07.5706825+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 2
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:12:07.6380829+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 2,
+          "Calling": "TEST2",
+          "Contact": "TEST2",
+          "Gsm": "TEST2",
+          "Phone": "TEST2",
+          "Fax": "TEST2",
+          "Address": "TEST2",
+          "City": "TEST2",
+          "County": "TEST2",
+          "TaxOffice": "TEST2",
+          "TaxId": "TEST2",
+          "EMail": "TEST2",
+          "Web": "TEST2",
+          "Balance": 55.75
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:12:09.2780859+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:12:11.3236896+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 2
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:12:11.3890899+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 2,
+          "Calling": "TEST2",
+          "Contact": "TEST2",
+          "Gsm": "TEST2",
+          "Phone": "TEST2",
+          "Fax": "TEST2",
+          "Address": "TEST2",
+          "City": "TEST2",
+          "County": "TEST2",
+          "TaxOffice": "TEST2",
+          "TaxId": "TEST2",
+          "EMail": "TEST2",
+          "Web": "TEST2",
+          "Balance": 55.75
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:12:12.4060918+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:28.4728707+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:36.3372846+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 1
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:36.7916855+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 1,
+          "Calling": "TEST1",
+          "Contact": "TEST1",
+          "Gsm": "TEST1",
+          "Phone": "TEST1",
+          "Fax": "TEST1",
+          "Address": "TEST1",
+          "City": "TEST1",
+          "County": "TEST1",
+          "TaxOffice": "TEST1",
+          "TaxId": "TEST1",
+          "EMail": "TEST1",
+          "Web": "TEST1",
+          "Balance": 66.5
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:41.506894+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:44.8191001+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 4
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:44.8503002+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 4,
+          "Calling": "TEST3",
+          "Contact": "TEST3",
+          "Gsm": "TEST3",
+          "Phone": "TEST3",
+          "Fax": "TEST3",
+          "Address": "TEST3",
+          "City": "TEST3",
+          "County": "TEST3",
+          "TaxOffice": "TEST3",
+          "TaxId": "TEST3",
+          "EMail": "TEST3",
+          "Web": "TEST3",
+          "Balance": 15.15
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:46.2875028+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:48.448307+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 1
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:48.4951071+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 1,
+          "Calling": "TEST1",
+          "Contact": "TEST1",
+          "Gsm": "TEST1",
+          "Phone": "TEST1",
+          "Fax": "TEST1",
+          "Address": "TEST1",
+          "City": "TEST1",
+          "County": "TEST1",
+          "TaxOffice": "TEST1",
+          "TaxId": "TEST1",
+          "EMail": "TEST1",
+          "Web": "TEST1",
+          "Balance": 66.5
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:50.5859117+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:52.3819149+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 6
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:52.4619152+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 6,
+          "Calling": "TEST5",
+          "Contact": "TEST5",
+          "Gsm": "TEST5",
+          "Phone": "TEST5",
+          "Fax": "TEST5",
+          "Address": "TEST5",
+          "City": "TEST5",
+          "County": "TEST5",
+          "TaxOffice": "TEST5",
+          "TaxId": "TEST5",
+          "EMail": "TEST5",
+          "Web": "TEST5",
+          "Balance": 10.0
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:13:53.3893172+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:09.632946+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Add",
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Customer",
+        "Value": {
+          "Id": 0,
+          "Calling": "TEST6",
+          "Contact": "TEST6",
+          "Gsm": "TEST6",
+          "Phone": "TEST6",
+          "Fax": "TEST6",
+          "Address": "TEST6",
+          "City": "TEST6",
+          "County": "TEST6",
+          "TaxOffice": "TEST6",
+          "TaxId": "TEST6",
+          "EMail": "TEST6",
+          "Web": "TEST6",
+          "Balance": 0.0
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:09.8825464+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:16.6871585+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 7
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:16.7183586+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 7,
+          "Calling": "TEST6",
+          "Contact": "TEST6",
+          "Gsm": "TEST6",
+          "Phone": "TEST6",
+          "Fax": "TEST6",
+          "Address": "TEST6",
+          "City": "TEST6",
+          "County": "TEST6",
+          "TaxOffice": "TEST6",
+          "TaxId": "TEST6",
+          "EMail": "TEST6",
+          "Web": "TEST6",
+          "Balance": 0.0
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:26.6789782+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "Add",
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "CustomerActivity",
+        "Value": {
+          "Id": 0,
+          "CustomerId": 7,
+          "Type": "Borç",
+          "Description": "Çikolata",
+          "Total": 5.00
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:26.8213786+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 7,
+          "Calling": "TEST6",
+          "Contact": "TEST6",
+          "Gsm": "TEST6",
+          "Phone": "TEST6",
+          "Fax": "TEST6",
+          "Address": "TEST6",
+          "City": "TEST6",
+          "County": "TEST6",
+          "TaxOffice": "TEST6",
+          "TaxId": "TEST6",
+          "EMail": "TEST6",
+          "Web": "TEST6",
+          "Balance": 0.0
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:28.3813813+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:30.5361852+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "Get",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": {
+          "Type": "System.Func`2[[Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "NodeType": 18,
+          "Parameters": [
+            {
+              "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "NodeType": 38,
+              "Name": "c",
+              "IsByRef": false,
+              "CanReduce": false
+            }
+          ],
+          "Name": null,
+          "Body": {
+            "NodeType": 6,
+            "Type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "Method": {
+              "Name": "Equals",
+              "AssemblyName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "ClassName": "System.Int32",
+              "Signature": "Boolean Equals(Int32)",
+              "Signature2": "System.Boolean Equals(System.Int32)",
+              "MemberType": 8,
+              "GenericArguments": null
+            },
+            "Object": {
+              "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+              "Member": {
+                "Name": "Id",
+                "AssemblyName": "Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "ClassName": "Veresiye.Entity.Concrete.Customer",
+                "Signature": "Int32 Id",
+                "Signature2": "System.Int32 Id",
+                "MemberType": 16,
+                "GenericArguments": null
+              },
+              "Expression": {
+                "Type": "Veresiye.Entity.Concrete.Customer, Veresiye.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "NodeType": 38,
+                "Name": "c",
+                "IsByRef": false,
+                "CanReduce": false
+              },
+              "NodeType": 23,
+              "CanReduce": false
+            },
+            "Arguments": [
+              {
+                "Type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "Member": {
+                  "Name": "id",
+                  "AssemblyName": "Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "ClassName": "Veresiye.UI.MainForm+<>c__DisplayClass7_0",
+                  "Signature": "Int32 id",
+                  "Signature2": null,
+                  "MemberType": 4,
+                  "GenericArguments": null
+                },
+                "Expression": {
+                  "Type": "Veresiye.UI.MainForm+<>c__DisplayClass7_0, Veresiye.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "NodeType": 9,
+                  "Value": {
+                    "id": 7
+                  },
+                  "CanReduce": false
+                },
+                "NodeType": 23,
+                "CanReduce": false
+              }
+            ],
+            "CanReduce": false
+          },
+          "ReturnType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "TailCall": false,
+          "CanReduce": false
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:30.610586+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerActivityManager",
+    "MethodName": "BakiyeHesapla",
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Customer",
+        "Value": {
+          "Id": 7,
+          "Calling": "TEST6",
+          "Contact": "TEST6",
+          "Gsm": "TEST6",
+          "Phone": "TEST6",
+          "Fax": "TEST6",
+          "Address": "TEST6",
+          "City": "TEST6",
+          "County": "TEST6",
+          "TaxOffice": "TEST6",
+          "TaxId": "TEST6",
+          "EMail": "TEST6",
+          "Web": "TEST6",
+          "Balance": 5.0
+        }
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:14:32.6269898+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}

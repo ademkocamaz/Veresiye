@@ -57,6 +57,12 @@ namespace Veresiye.Business.Concrete.Managers
             return customerActivityDal.GetAll(filter);
         }
 
+        [CacheAspect(typeof(MemoryCacheManager))]
+        public async Task<List<CustomerActivity>> GetAllAsync(Expression<Func<CustomerActivity, bool>> filter = null)
+        {
+            return await Task.Run(() => customerActivityDal.GetAll(filter));
+        }
+
         public void Update(CustomerActivity entity)
         {
             ValidationTool.Validate(new CustomerActivityValidator(), entity);
