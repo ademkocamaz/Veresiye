@@ -1564,3 +1564,108 @@
     ]
   }
 }
+{
+  "DateTime": "2022-05-03T22:38:55.0606824+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:39:20.0247308+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:39:21.0543326+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:40:34.3758154+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:40:56.9962561+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:41:00.2742619+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
+{
+  "DateTime": "2022-05-03T22:41:20.674861+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}
