@@ -1819,3 +1819,18 @@
     ]
   }
 }
+{
+  "DateTime": "2022-05-13T13:31:49.5020743+03:00",
+  "Username": "Sony\\Adem",
+  "MessageObject": {
+    "FullName": "CustomerManager",
+    "MethodName": "GetAllAsync",
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Expression`1",
+        "Value": null
+      }
+    ]
+  }
+}

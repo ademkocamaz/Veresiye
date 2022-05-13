@@ -9,7 +9,7 @@ using Veresiye.Entity.Concrete;
 
 namespace Veresiye.DataAccess.Concrete.EntityFramework
 {
-    public class EfCustomerDal : EfEntityRepositoryBase<Customer, VeresiyeContext>,ICustomerDal
+    public class EfCustomerDal : EfEntityRepositoryBase<Customer, VeresiyeDatabaseContext>,ICustomerDal
     {
     }
 }

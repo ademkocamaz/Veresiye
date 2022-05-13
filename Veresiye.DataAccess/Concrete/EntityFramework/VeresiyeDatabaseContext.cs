@@ -11,9 +11,9 @@ using Veresiye.Entity.Concrete;
 
 namespace Veresiye.DataAccess.Concrete.EntityFramework
 {
-    public class VeresiyeContext : DbContext
+    public class VeresiyeDatabaseContext : DbContext
     {
-        public VeresiyeContext() : base(new FbConnection(VeresiyeDatabase.connectionString), true)
+        public VeresiyeDatabaseContext() : base(new FbConnection(VeresiyeDatabase.connectionString), true)
         {
 
         }

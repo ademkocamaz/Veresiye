@@ -22,7 +22,7 @@ namespace Veresiye.Business.DependencyResolvers.Ninject
             Bind<ICustomerActivityService>().To<CustomerActivityManager>().InSingletonScope();
             Bind<ICustomerActivityDal>().To<EfCustomerActivityDal>().InSingletonScope();
 
-            Bind<DbContext>().To<VeresiyeContext>().InSingletonScope();
+            Bind<DbContext>().To<VeresiyeDatabaseContext>().InSingletonScope();
         }
     }
 }

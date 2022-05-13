@@ -3,7 +3,7 @@
   <Evolution Source="#1=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::GetAllAsync(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.CustomerActivity,System.Boolean}})" Target="#2=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager+&lt;GetAllAsync&gt;d__8::MoveNext()" />
   <Evolution Source="#3=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager::GetAllAsync(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.Customer,System.Boolean}})" Target="#4=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerManager+&lt;GetAllAsync&gt;d__6::MoveNext()" />
   <Class Class="#5=T:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.LogAspects.LogAspect">
-    <Instance Declaration="#6=A:Veresiye.Business" Id="42e5270abd696227">
+    <Instance Declaration="#6=A:Veresiye.Business" Id="42e5270abee5b510">
       <Target Target="#7=M:[Veresiye.Business]Veresiye.Business.Concrete.Managers.CustomerActivityManager::GetAll(System.Linq.Expressions.Expression{[mscorlib]System.Func{[Veresiye.Entity]Veresiye.Entity.Concrete.CustomerActivity,System.Boolean}})" LinesAvoided="2">
         <JoinPoint Advising="#5" Description="#8=Wrapped by advice(s) OnEntry" Ordinal="11" />
       </Target>
@@ -46,7 +46,7 @@
     </Instance>
   </Class>
   <Class Class="#19=T:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.ExceptionAspects.ExceptionLogAspect">
-    <Instance Declaration="#6" Id="42e5270a6720404c">
+    <Instance Declaration="#6" Id="42e5270a3a617a44">
       <Target Target="#7" LinesAvoided="2">
         <JoinPoint Advising="#19" Description="#20=Wrapped by advice(s) OnException" Ordinal="9" />
       </Target>
@@ -95,22 +95,22 @@
     </Instance>
   </Class>
   <Class Class="#23=T:[Veresiye.Core]Veresiye.Core.Aspects.Postsharp.CacheAspects.CacheAspect">
-    <Instance Declaration="#7" Id="42e5270ae7a5b57d">
+    <Instance Declaration="#7" Id="42e5270aec38b57d">
       <Target LinesAvoided="2">
         <JoinPoint Advising="#23" Description="#24=Intercepted by OnInvoke" Ordinal="10" />
       </Target>
     </Instance>
-    <Instance Declaration="#1" Id="42e5270aac47df09">
+    <Instance Declaration="#1" Id="42e5270a5d8455bf">
       <Target LinesAvoided="2" Tags="premium">
         <JoinPoint Advising="#23" Description="#24" Ordinal="12" />
       </Target>
     </Instance>
-    <Instance Declaration="#9" Id="42e5270a6196b548">
+    <Instance Declaration="#9" Id="42e5270ab1dfe258">
       <Target LinesAvoided="2">
         <JoinPoint Advising="#23" Description="#24" Ordinal="25" />
       </Target>
     </Instance>
-    <Instance Declaration="#3" Id="42e5270a7af62346">
+    <Instance Declaration="#3" Id="42e5270af854572f">
       <Target LinesAvoided="2" Tags="premium">
         <JoinPoint Advising="#23" Description="#24" Ordinal="27" />
       </Target>

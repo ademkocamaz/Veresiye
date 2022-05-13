@@ -85,7 +85,7 @@
     <Compile Include="Concrete\EntityFramework\EfCustomerDal.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\CustomerActivityMap.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\CustomerMap.cs" />
-    <Compile Include="Concrete\EntityFramework\VeresiyeContext.cs" />
+    <Compile Include="Concrete\EntityFramework\VeresiyeDatabaseContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
