@@ -22,7 +22,6 @@ namespace Veresiye.Entity.Concrete
         public string TaxId { get; set; }
         public string EMail { get; set; }
         public string Web { get; set; }
-
         public decimal Balance { get; set; }
 
     }
