@@ -15,9 +15,9 @@ namespace Veresiye.UI
         [STAThread]
         static void Main()
         {
-            bool AcikUygulamaVar = false;
-            Mutex mtx = new Mutex(true, "Veresiye", out AcikUygulamaVar);
-            if (AcikUygulamaVar)
+            bool isOpen = false;
+            Mutex mtx = new Mutex(true, "Veresiye", out isOpen);
+            if (isOpen)
             {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
