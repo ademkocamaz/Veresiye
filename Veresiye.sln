@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veresiye.Entity", "Veresiye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veresiye.UI", "Veresiye.UI\Veresiye.UI.csproj", "{844099F9-490F-43ED-AB12-C0CF2F6243A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veresiye.WPF", "Veresiye.WPF\Veresiye.WPF.csproj", "{ED55F75D-31E2-4A38-AA4C-1A10BBB4AEC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,14 @@ Global
 		{844099F9-490F-43ED-AB12-C0CF2F6243A5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{844099F9-490F-43ED-AB12-C0CF2F6243A5}.Release|x86.ActiveCfg = Release|x86
 		{844099F9-490F-43ED-AB12-C0CF2F6243A5}.Release|x86.Build.0 = Release|x86
+		{ED55F75D-31E2-4A38-AA4C-1A10BBB4AEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED55F75D-31E2-4A38-AA4C-1A10BBB4AEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED55F75D-31E2-4A38-AA4C-1A10BBB4AEC3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED55F75D-31E2-4A38-AA4C-1A10BBB4AEC3}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED55F75D-31E2-4A38-AA4C-1A10BBB4AEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED55F75D-31E2-4A38-AA4C-1A10BBB4AEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED55F75D-31E2-4A38-AA4C-1A10BBB4AEC3}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED55F75D-31E2-4A38-AA4C-1A10BBB4AEC3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
